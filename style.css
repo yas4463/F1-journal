@@ -68,10 +68,6 @@ nav ul li a:hover {
     color: rgb(255, 221, 0);
 }
 
-main{
-    
-}
-
 .calendar {
     width: 100%;
     max-width: 1200px;
@@ -131,37 +127,97 @@ main{
     background-color: #0056b3;
 }
 
+.circuito-melbourne{
+    display: block;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+caption{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    color: #212121;
+    font-weight: bold;
+    padding: 10px;
 }
 
 th, td{
     border: 1px solid #212121;
     padding: 8px;
     text-align: center;
+    font-size: 16px;
 }
 
 th{
     background-color:#d50000;
-    color: whitesmoke
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 tr:nth-child(even){
-    background-color: #e0e0e0;
+    background-color: #f5f5f5;
 }
 
 tr:hover{
-    background-color: #cacaca;
+    background-color: #cfcfcf;
+    transition: background 0.3s ease-in-out;
 }
 
 .dnf{
     color: #d50000;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .vitoria{
     color: #006747;
     font-weight: bold;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #212121;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #d50000;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #212121;
+    text-transform: uppercase;
+    border-left: 5px solid #d50000;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p b{
+    color: #006747;
 }
