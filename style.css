@@ -299,3 +299,89 @@ p b{
     transition: width 0.2s;
     transition: height 0.2s;
 }
+
+.team-card{
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #e0e0e0;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #212121;
+}
+
+.team-card h2{
+    display: block;
+    margin-top: 10px;
+    color: #00a19c;
+    border: #2b2b2b;
+}
+
+.team-card p{
+    color: #c9c9c9;
+}
+
+.team-card p b{
+    color: #00a19c;
+}
+
+.team-logo{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    background-color: #5c5c5c22;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.pilotos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.piloto{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.piloto:hover{
+    transform: scale(1.05);
+}
+
+.piloto img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.piloto-info{
+    font-size: 16px;
+    text-align: left;
+}
+
+.piloto-info b{
+    font-size: 18px;
+    color: #00a19c;
+}
+
+.piloto-info p{
+    margin: 2px 0;
+    font-size: 14px;
+    color: #c9c9c9;
+}
+
+.team-card-mercedes{
+    background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+    border-left: 8px solid #00a19c;
+    color: #c9c9c9;
+}
