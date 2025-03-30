@@ -125,6 +125,8 @@ nav ul li a:hover {
 
 .calendar-btn:hover {
     background-color: #0056b3;
+    font-size: 18px;
+    transition: font-size 0.3s;
 }
 
 .circuito-melbourne{
@@ -275,4 +277,6 @@ p b{
     width: 53px;
     height: 53px;
     transition: background 0.3s ease-in-out;
+    transition: width 0.2s;
+    transition: height 0.2s;
 }
