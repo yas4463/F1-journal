@@ -3,18 +3,30 @@
     padding: 0;
 }
 
-header {
-    background-image: linear-gradient(90deg, black, #d50000);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-    font-family: 'Oswald', sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-#logo{
+header {
+    background-image: linear-gradient(90deg, black, #d50000);
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+#logo {
     height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 h1 {
@@ -23,7 +35,15 @@ h1 {
     margin: 0;
 }
 
-nav ul{
+nav {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -31,18 +51,84 @@ nav ul{
     margin: 0;
 }
 
-nav ul li{
-    display:inline;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #e0e0e0;
     font-size: 16px;
     text-transform: uppercase;
     padding: 10px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(255, 221, 0);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.calendar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.calendar h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.calendar-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.calendar-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.333% - 20px);
+}
+
+.calendar-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #d50000;
+}
+
+.calendar-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.calendar-btn {
+    display: inline-block;
+    background-color: #2979ff;
+    color: whitesmoke;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.calendar-btn:hover {
+    background-color: #0056b3;
 }
