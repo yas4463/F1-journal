@@ -146,6 +146,15 @@ nav ul li a:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.circuito-suzuka{
+    display: block;
+    width: 900px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
