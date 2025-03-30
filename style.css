@@ -204,6 +204,21 @@ tr:hover{
     text-transform: uppercase;
 }
 
+.subiu{
+    color: green;
+    font-size: 18px;
+}
+
+.desceu{
+    color: #d50000;
+    font-size: 18px;
+}
+
+.igual{
+    color: rgb(237, 210, 0);
+    font-size: 18px;
+}
+
 h2{
     font-family: 'Oswald', sans-serif;
     font-size: 28px;
