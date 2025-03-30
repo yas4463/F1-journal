@@ -130,3 +130,38 @@ main{
 .calendar-btn:hover {
     background-color: #0056b3;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td{
+    border: 1px solid #212121;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color:#d50000;
+    color: whitesmoke
+}
+
+tr:nth-child(even){
+    background-color: #e0e0e0;
+}
+
+tr:hover{
+    background-color: #cacaca;
+}
+
+.dnf{
+    color: #d50000;
+    font-weight: bold;
+}
+
+.vitoria{
+    color: #006747;
+    font-weight: bold;
+}
