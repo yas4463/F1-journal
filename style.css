@@ -115,6 +115,24 @@ nav ul li a:hover{
     text-align: center;
 }
 
+#title-bingo{
+    display: block; 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #f4f4f4;
+    margin: 20px auto;
+    padding: 15px;
+    width: fit-content; 
+}
+
+#text-bingo{
+    font-family: 'Lexend Giga', sans-serif;
+    text-align: center;
+    color: #f4f4f4;
+    margin: 20px;
+    padding: 15px;
+}
+
 .bingo{
     border: 5px solid green;
     display: grid;
@@ -141,6 +159,34 @@ nav ul li a:hover{
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.item p{
+    font-family: 'Lexend Giga', sans-serif;
+    color: #f4f4f4;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#max-dnf{
+    background-image: url(midia/Max\ 🫣.jpg);
+}
+
+#dnf-equipe{
+    background-image: url(midia/2ca7d788-2fb7-4055-b8df-525e2b9bd196.jpg);
+}
+
+#sauber-ponto{
+    background-image: url(midia/0025d25a-c23e-4319-9091-6eb922177ea9.jpg);
+}
+
+#crash-team{
+    background-image: url(midia/5\ Biggest\ Crashes\ Which\ Stunned\ F1\ World.jpg);
+}
+
+#treta{
+    background-image: url(midia/Camiseta\ da\ união_\ você\ adotaria\ a\ ideia\ com\ seus\ filhos_.jpg);
 }
 
 #botao{
