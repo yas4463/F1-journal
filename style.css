@@ -134,7 +134,6 @@ nav ul li a:hover{
 }
 
 .bingo{
-    border: 5px solid green;
     display: grid;
     grid-template-columns: repeat(5, 200px);
     grid-template-rows: repeat(5, 200px);
@@ -187,6 +186,86 @@ nav ul li a:hover{
 
 #treta{
     background-image: url(midia/Camiseta\ da\ união_\ você\ adotaria\ a\ ideia\ com\ seus\ filhos_.jpg);
+}
+
+#pitstop{
+    background-image: url(midia/pitstoppaia.jpg);
+}
+
+#podio-kimi{
+    background-image: url(midia/kimi\ antonelli.jpg);
+}
+
+#bibi{
+    background-image: url(midia/gabriel\ bortoleto\ -\ f1.jpg);
+}
+
+#rain{
+    background-image: url(midia/A\ Ferrari\ in\ Montreal.jpg);
+}
+
+#all{
+    background-image: url(midia/russell-sorrindinho.jpg);
+}
+
+#crash{
+    background-image: url(midia/reacao-alonso.jpg);
+}
+
+#rodando{
+    background-image: url(midia/russell-encarando-sua-alma.jpg);
+}
+
+#podio-sainz{
+    background-image: url(midia/carlos.jpg);
+}
+
+#monaco-survival{
+    background-image: url(midia/charles-borboleta.jpg);
+}
+
+#home-race{
+    background-image: url(midia/comemorandinho.jpg);
+}
+
+#danca-das-cadeiras{
+    background-image: url(midia/russell-em-desespero.jpg);
+}
+
+#yuki{
+    background-image: url(midia/f1\ yuki\ tsunoda\ silly\ _3.jpg);
+}
+
+#lewis-win{
+    background-image: url(midia/Lewis.jpg);
+}
+
+#first-win{
+    background-image: url(midia/sebastian\ vettel\ f1\ reaction\ pic.jpg);
+}
+
+#first-pole{
+    background-image: url(midia/nico-explosivo.jpg);
+}
+
+#max-out{
+    background-image: url(midia/regina-george.jpg);
+}
+
+#mclaren-wcc{
+    background-image: url(midia/McLaren\ F1\ Chill\ Guy\ With\ Cap\ On\ His\ Nose.jpg);
+}
+
+#new-wdc{
+    background-image: url(midia/Daniel\ Ricciardo.jpg);
+}
+
+#fofoquinha{
+    background-image: url(midia/oscar.jpg);
+}
+
+#cancelamento{
+    background-image: url(midia/sainz-divando.jpg);
 }
 
 #botao{
