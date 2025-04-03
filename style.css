@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #1c1c1c;
+    background: linear-gradient(to bottom, #1c1c1c, #000000)
 }
 
 header{
@@ -57,9 +57,10 @@ nav ul li a:hover{
 }
 
 .sumario{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border: 4px ridge #565656;
+    margin: 20px;
     padding: 15px;
+    padding-bottom: 20px;
 }
 
 .sumario h2{
@@ -95,7 +96,23 @@ nav ul li a:hover{
 }
 
 .introducao{
-    border: 5px solid green;
+    border: 4px ridge #565656;
+    margin: 20px;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.introducao h1{
+    font-family: 'Poppins', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+    margin: 10px;
+}
+
+.introducao p{
+    font-family: 'Lexend Giga', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
 }
 
 .bingo{
